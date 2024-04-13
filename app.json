@@ -15,13 +15,9 @@
       "url": "heroku/python"
     }
   ],
-  "scripts": {
-    "postdeploy": "python reply.py"
-  },
   "formation": {
     "worker": {
       "quantity": 1
     }
   }
 }
-
